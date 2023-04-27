@@ -7,7 +7,9 @@ const {
   DB_USER,
   DB_PASSWORD,
   DB_DATABASE,
-  JWT_SECRET
+  JWT_SECRET,
+  MAILER_GMAIL,
+  MAILER_PASSWORD
 } = process.env;
 
 export {
@@ -16,5 +18,7 @@ export {
   DB_USER,
   DB_PASSWORD,
   DB_DATABASE,
-  JWT_SECRET
+  JWT_SECRET,
+  MAILER_GMAIL,
+  MAILER_PASSWORD
 }
